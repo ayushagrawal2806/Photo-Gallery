@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 19.5vh;
+    background-color: #0a0a23;
+    padding: 20px;
+}
+h1{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    margin: 33.5px 0px; 
+}
+
+.hr{
+    height: 0.5vh;
+    background-color: #fdb347;
+    
+}
+
+.Images{
+    margin: 20px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+img{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.Images::after{
+    content: "";
+    width: 350px;
+}
